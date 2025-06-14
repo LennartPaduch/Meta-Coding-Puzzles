@@ -24,7 +24,3 @@ function getSecondsRequired(N, F, P) {
     return gaps + P.length + gapToLast
 }
 
-N = 3
-F = 1
-P = [1]
-console.log(getSecondsRequired(N, F, P))
